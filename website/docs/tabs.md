@@ -87,14 +87,14 @@ export default {
 <AtTabs
   :current="current"
   scroll
-  tabList={[
+  :tabList="[
     { title: '标签页1' },
     { title: '标签页2' },
     { title: '标签页3' },
     { title: '标签页4' },
     { title: '标签页5' },
     { title: '标签页6' }
-  ]}
+  ]"
   @click="handleClick"
 >
   <AtTabsPane :current="current" :index="0">
